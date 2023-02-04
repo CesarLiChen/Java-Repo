@@ -51,7 +51,9 @@ public class Arrays {
 		String[][] moreWords = new String[2][3];
 		
 		String[][] woords = new String[2][];
-		woords[0] = {"AHHH", "RUUUN"};
+		woords[0] = new String[2];
+		woords[0][0] = "RUUN";
+		woords[0][1] = "WHY??";
 		
 	}
 
