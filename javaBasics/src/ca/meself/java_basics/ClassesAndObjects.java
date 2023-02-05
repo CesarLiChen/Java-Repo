@@ -11,6 +11,10 @@ class PersonExample {
 	
 	// 1. Data
 	// 2. Subroutines (methods)
+	
+	void speak() {
+		System.out.println("Hi! My name is " + name);
+	}
 }
 public class ClassesAndObjects {
 	
@@ -26,5 +30,8 @@ public class ClassesAndObjects {
 		
 		System.out.println(person1.name);
 		System.out.println(person2.name);
+		
+		person1.speak();
+		person2.speak();
 	}
 }
