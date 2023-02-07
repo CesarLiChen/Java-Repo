@@ -5,6 +5,8 @@ public class PersonApp {
 	public static void main(String[] args) {
 		
 		Person p1 = new Person();
+		Person pDefault = new Person();
+		Person p2 = new Person("Matt", 30);
 //		p1.name = "Clark";
 //		p1.age = 24;
 		
@@ -23,5 +25,8 @@ public class PersonApp {
 		System.out.println(yearsToRetirement + " years left for " + name + " to retire.");
 		
 		p1.useSpell("wingardium leviosa");
+		
+		System.out.println(pDefault.getName());
+		System.out.println(p2.getName());
 	}
 }
