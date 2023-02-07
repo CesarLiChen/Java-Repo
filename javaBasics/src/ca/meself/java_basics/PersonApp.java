@@ -28,5 +28,8 @@ public class PersonApp {
 		
 		System.out.println(pDefault.getName());
 		System.out.println(p2.getName());
+		
+		System.out.println(p1.getTotalPeople());
+		System.out.println(Person.message);
 	}
 }

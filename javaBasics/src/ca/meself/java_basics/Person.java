@@ -4,25 +4,34 @@ package ca.meself.java_basics;
 
 public class Person {
 	
+	public final static int YEAR_OF_BIRTH = 1997;
 	private String name;
 	private int age;
+	private static int totalPeople;
+	public static String message = "This is the 'Person' class";
 	
 	public Person() {
 		// this(John, 35)  //HAS to be first line.
 		System.out.println("Normal constructor running");
 		name = "John";
 		age = 35;
+		
+		totalPeople++;
 	}
 	
 	public Person(String name) {
 		System.out.println("Overloaded constructor running");
 		this.name = name;
+		
+		totalPeople++;
 	}
 	
 	public Person(String name, int age) {
 		System.out.println("Second overloaded constructor running");
 		this.name = name;
 		this.age = age;
+		
+		totalPeople++;
 	}
 	
 	public int getAge() {
@@ -41,6 +50,10 @@ public class Person {
 		this.name = name;
 	}
 	
+	public int getTotalPeople() {
+		return totalPeople;
+	}
+
 	public void speak() {
 		System.out.println("My name is " + name + "!");
 	}
