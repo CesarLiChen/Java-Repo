@@ -7,6 +7,14 @@ public class Person {
 	public String name;
 	public int age;
 	
+	public int getAge() {
+		return age;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
 	public void speak() {
 		System.out.println("My name is " + name + "!");
 	}
@@ -18,13 +26,5 @@ public class Person {
 	public int calcYearsToRetirement() {
 		int yearsLeft = 65 - age;
 		return yearsLeft;
-	}
-	
-	public int getAge() {
-		return age;
-	}
-	
-	public String getName() {
-		return name;
 	}
 }
