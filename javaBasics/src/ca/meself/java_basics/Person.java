@@ -11,6 +11,10 @@ public class Person {
 		System.out.println("My name is " + name + "!");
 	}
 	
+	public void useSpell(String spell) {
+		System.out.println("**waves wand** " + spell.toUpperCase() + "!!!");
+	}
+	
 	public int calcYearsToRetirement() {
 		int yearsLeft = 65 - age;
 		return yearsLeft;

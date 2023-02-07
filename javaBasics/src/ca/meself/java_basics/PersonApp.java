@@ -18,5 +18,7 @@ public class PersonApp {
 		
 		System.out.println("Name is: " + name);
 		System.out.println("Age is: " + age);
+		
+		p1.useSpell("wingardium leviosa");
 	}
 }
