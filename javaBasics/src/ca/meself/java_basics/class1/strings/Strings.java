@@ -1,4 +1,4 @@
-package ca.meself.java_basics;
+package ca.meself.java_basics.class1.strings;
 
 public class Strings {
 

@@ -1,4 +1,4 @@
-package ca.meself.java_basics;
+package ca.meself.java_basics.class5.input;
 import java.util.Scanner;
 
 public class UserInput {

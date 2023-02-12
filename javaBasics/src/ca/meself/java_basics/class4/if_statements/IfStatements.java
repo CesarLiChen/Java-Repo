@@ -1,4 +1,4 @@
-package ca.meself.java_basics;
+package ca.meself.java_basics.class4.if_statements;
 import java.util.Random;
 
 public class IfStatements {

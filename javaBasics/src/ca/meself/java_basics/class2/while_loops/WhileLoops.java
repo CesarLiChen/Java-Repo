@@ -1,4 +1,4 @@
-package ca.meself.java_basics;
+package ca.meself.java_basics.class2.while_loops;
 
 public class WhileLoops {
 	
