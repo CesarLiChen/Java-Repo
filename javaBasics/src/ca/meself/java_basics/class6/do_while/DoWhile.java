@@ -1,4 +1,5 @@
-package ca.meself.java_basics;
+package ca.meself.java_basics.class6.do_while;
+
 import java.util.Scanner;
 
 public class DoWhile {

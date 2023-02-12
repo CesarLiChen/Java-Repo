@@ -1,4 +1,4 @@
-package ca.meself.java_basics;
+package ca.meself.java_basics.class11.stringbuilder;
 
 public class StringBuilderInJava {
 	

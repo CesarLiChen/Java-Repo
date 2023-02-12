@@ -1,4 +1,4 @@
-package ca.meself.java_basics;
+package ca.meself.java_basics.class9.classes_objects_methods;
 
 
 class PersonExample {

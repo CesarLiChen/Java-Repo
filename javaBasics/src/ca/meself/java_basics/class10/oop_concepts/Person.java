@@ -1,6 +1,7 @@
-package ca.meself.java_basics;
+package ca.meself.java_basics.class10.oop_concepts;
 
 // Class used for OOP concepts
+// From 21 (Setters and "this" to 23 (Static and final)
 
 public class Person {
 	

@@ -1,4 +1,4 @@
-package ca.meself.java_basics;
+package ca.meself.java_basics.class7.switch_case;
 
 import java.util.Scanner;
 
