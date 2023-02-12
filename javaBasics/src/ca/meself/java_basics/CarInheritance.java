@@ -16,4 +16,8 @@ public class CarInheritance extends MachineInheritance{
 	public void horn() {
 		System.out.println("Beep beep");
 	}
+	
+	public void showInfo() {
+		System.out.println("I'm a " + name);
+	}
 }

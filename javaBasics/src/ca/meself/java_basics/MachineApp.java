@@ -11,6 +11,7 @@ public class MachineApp {
 		CarInheritance car = new CarInheritance();
 		car.start();
 		car.horn();
+		car.showInfo();
 		car.stop();
 	}
 }
