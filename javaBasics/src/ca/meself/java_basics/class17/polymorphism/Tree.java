@@ -8,4 +8,8 @@ public class Tree extends Plant {
 		System.out.println("tree growing");
 	}
 	
+	public void shedding() { 
+		System.out.println("tree leave's shedding");
+	}
+	
 }

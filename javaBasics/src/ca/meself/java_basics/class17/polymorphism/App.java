@@ -12,8 +12,14 @@ public class App {
 		Plant tree2 = new Tree();
 		
 		plant1.grow();
+		// plant1.shedding(); //throws error because there is no such method
 		plant2.grow();
+		// plant2.shedding(); //doesn't work
+		
+		tree.shedding();
+		
 		tree2.grow();
+		// tree2.shedding(); //doesn't work
 	}
 
 }
