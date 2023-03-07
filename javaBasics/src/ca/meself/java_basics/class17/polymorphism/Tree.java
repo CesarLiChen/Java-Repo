@@ -8,6 +8,11 @@ public class Tree extends Plant {
 		System.out.println("tree growing");
 	}
 	
+	@Override
+	public void whoAmI() {
+		System.out.println("I AM A TREE");
+	}
+	
 	public void shedding() { 
 		System.out.println("tree leave's shedding");
 	}

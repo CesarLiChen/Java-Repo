@@ -5,4 +5,8 @@ public class Plant {
 	public void grow() {
 		System.out.println("plant growing");
 	}
+	
+	public void whoAmI() {
+		System.out.println("IM A PLANT");
+	}
 }
